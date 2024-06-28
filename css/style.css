@@ -1,0 +1,1692 @@
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Black.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-ExtraBold.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/PlayfairDisplay-SemiBold.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Black.woff2') format('woff2'),
+        url('../fonts/Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+        url('../fonts/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.woff2') format('woff2'),
+        url('../fonts/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Inter-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+        url('../fonts/Inter-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Medium.woff2') format('woff2'),
+        url('../fonts/Inter-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Black.woff2') format('woff2'),
+        url('../fonts/Inter-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Bold.woff2') format('woff2'),
+        url('../fonts/Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #FFFFFF;
+}
+
+.container {
+    max-width: 1340px !important;
+}
+
+.btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    margin: 15px auto 0;
+    border-radius: 40px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    color: #FFFFFF;
+    background: #4BAEEF !important;
+    border-color: #4BAEEF !important;
+    height: 45px;
+    box-shadow: 0px 41px 16px rgba(102, 96, 96, 0.01), 
+            0px 23px 14px rgba(102, 96, 96, 0.05), 
+            0px 10px 10px rgba(102, 96, 96, 0.09), 
+            0px 3px 6px rgba(102, 96, 96, 0.1), 
+            0px 0px 0px rgba(102, 96, 96, 0.1);
+}
+
+.heading .title {
+    font-family: "Roboto", sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 44.53px;
+    text-align: center;
+    color: #1C1C1C;
+    text-transform: uppercase;
+}
+
+.heading .bottom-divider {
+    width: 120px;
+    height: 4px;
+    background: #000000;
+    margin: 15px auto 0;
+    display: block;
+    border-radius: 3px;
+}
+
+.topnav {
+    background: #4BAEEF;
+}
+
+.topnav .contant {
+    padding: 20px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.topnav .contant img {
+    margin-right: 5px;
+}
+
+.topnav .contant img {
+    margin-right: 5px;
+}
+
+header .center-logo {
+    text-align: center;
+    padding: 6px 0px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #00000033;
+}
+
+/* navbar css */
+
+.navbar {
+    padding: 26px 16px;
+}
+
+.navbar .navbar-nav {
+    align-items: center;
+}
+
+.navbar .nav-item.active,
+.navbar .nav-item:hover {
+    background: #4BAEEF;
+    border-radius: 25px;
+    padding: 8px;
+    color: #FFFFFF;
+}
+
+.navbar .nav-item.active .nav-link,
+.navbar .nav-item:hover .nav-link {
+    color: #FFFFFF;
+}
+
+.navbar .navbar-nav .nav-item {
+    padding: 0px 16px;
+    margin: 0 5px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #282828;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    /* padding: 0px; */
+}
+
+.hero {
+    width: 100%;
+    height: 800px;
+    background: url('../image/mountains-1.png')center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.hero .hero-contnt h1 {
+    font-family: Playfair Display;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 70.2px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+.hero .hero-contnt p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+
+ /* swiper slider css */
+.swiper .card {
+    height: 100%;
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0px 14px 20px -9px #00000026;
+    border: 1px solid #f1f1f1;
+}
+
+.swiper .card .card-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.6px;
+    text-align: center;
+    color: #282828;
+}
+
+.swiper .card .card-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+    color: #888888;
+    padding-bottom: 10px;
+}
+
+.swiper .card .btn-primary img {
+    margin-left: 10px;
+}
+.swiper-slide {
+    height: auto !important;
+}
+
+/* our_resorts css */
+
+.our_resorts {
+    padding-top: 70px;
+}
+
+.our_resorts .swiper {
+    padding: 58px 0px 80px 0px;
+}
+
+.our_resorts .swiper-button-next, 
+.our_resorts .swiper-button-prev{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: var(--swiper-navigation-top-offset, 48%);
+}
+
+.our_resorts .swiper-button-next{
+    right: 0;
+}
+
+.our_resorts .swiper-button-prev{
+    left: 0;
+}
+
+.our_resorts .swiper-button-next:after, 
+.our_resorts .swiper-button-prev:after{
+    font-size: 22px;
+    font-weight: 900;
+ 
+}
+
+.our_resorts .swiper .card .card-body {
+    padding: 25px 10px;
+}
+
+/* travel-section css */
+
+.travel-section{
+    padding: 60px 0;
+}
+.travel-section .right-column .heading .title {
+    text-align: left;
+}
+
+.travel-section .right-column .heading .bottom-divider {
+    margin: 15px 0px 40px;
+}
+
+.travel-section .right-column p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #484848;
+    margin-bottom: 26px;
+}
+
+.travel-section .right-column .btn-primary {
+    margin: 10px 0px 0px;
+    max-width: 230px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    align-items: center;
+    padding: 14px 42px;
+    box-shadow: 0px 41px 16px rgba(102, 96, 96, 0.01), 
+                0px 23px 14px rgba(102, 96, 96, 0.05), 
+                0px 10px 10px rgba(102, 96, 96, 0.09), 
+                0px 3px 6px rgba(102, 96, 96, 0.1), 
+                0px 0px 0px rgba(102, 96, 96, 0.1);
+    
+    width: auto;
+
+}
+
+
+/* fishing-section css */
+.fishing-section {
+    background: url('../image/fishing.png')center / cover no-repeat;
+}
+
+.fishing-section .swiper {
+    padding-bottom: 60px;
+}
+
+.fishing-section .heading {
+    padding: 50px 0px 50px 0px;
+}
+
+.fishing-section .heading .title {
+    color: #FFFFFF;
+}
+
+.fishing-section .heading .bottom-divider {
+    background-color: #FFFFFF;
+    margin: 15px auto 0 auto;
+}
+
+.fishing-section .swiper-button-next, 
+.fishing-section .swiper-button-prev{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    top: var(--swiper-navigation-top-offset, 37%);
+}
+
+.fishing-section .swiper-button-next:after, 
+.fishing-section .swiper-button-prev:after{
+    font-size: 22px;
+    font-weight: 900;
+ 
+}
+
+.fishing-section .swiper .card .card-text {
+    min-height: 115px;
+}
+
+.fishing-section .swiper .card .card-body{
+    padding:25px 10px;
+}
+
+/* connect-with-email css */
+.connect-with-email {
+    width: 100%;
+    padding: 100px 0px;
+    background: #FBFDFD;
+    position: relative;
+    z-index: 3;
+}
+
+.connect-with-email::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('../image/Vector.png')center / cover no-repeat;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
+
+.connect-with-email h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: 0.01em;
+    color: #161819;
+    margin-bottom: 67px;
+}
+
+.connect-with-email p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+    color: #555555;
+    max-width: 304px;
+    margin: 0 auto 0 40px;
+}
+
+.connect-with-email .email-item {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 80px;
+    padding: 0;
+}
+
+.connect-with-email .email-item .input-group{
+    height: 100%;
+}
+.connect-with-email .email-item .input-group-prepend{
+    margin: 0;
+}
+
+.connect-with-email .email-item .input-group-text{
+    border: 0;
+    border-radius: 0;
+    background-color: #F8F8F8;    
+    width: 70px;
+    text-align: center;
+}
+
+.connect-with-email .email-item .input-group-text img{
+    margin: 0 auto;
+}
+
+.connect-with-email .email-item input {
+    height: 100%;
+    background-color: #FFFFFF;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    padding: 0px 16px;
+
+}
+
+.connect-with-email .email-item input::placeholder {
+    color: #000000;
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+.connect-with-email .email-item .btn-dark {
+    background: #161819 !important;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    border-radius: 0px;
+    font-family: 'Roboto';
+    padding: 0 40px;
+}
+
+
+
+
+.footer {
+    background: #E1EDF6;
+    padding: 53px 0px;
+}
+
+.footer .footer-logo p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #282828;
+}
+
+.footer .footer-menu h3 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28.8px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.footer .footer-menu p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: left;
+    color: #282828;
+
+}
+
+.footer .footer-link {
+    list-style: none;
+}
+
+.footer .footer-link li {
+    margin-bottom: 10px;
+}
+
+.footer .footer-link li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #282828;
+    transition: color 0.3s;
+    display: flex;
+}
+
+.footer .footer-link li a img {
+    margin-right: 5px;
+}
+
+.footer .footer-link li a:hover {
+    color: #67A301;
+}
+
+/* copyright css */
+.copyright {
+    padding: 13px 16px;
+    text-align: center;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.copyright p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #666666;
+}
+
+
+@media (max-width: 991px) {
+    .container{
+        max-width: 100% !important;
+    }
+    .navbar {
+        padding: 10px 16px;
+    }
+
+    .navbar .navbar-nav {
+        align-items: start;
+    }
+
+    .travel-section img {
+        width: 100%;
+    }
+
+    .travel-section .right-column {
+        margin: 36px 0px 0px;
+    }
+    .connect-with-email p{
+        margin: 0px 0px 26px 0px;
+        max-width: 100%;
+    }
+
+    .footer .col-lg-3.col-md-6{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+
+
+    .heading .bottom-divider{
+        margin: 15px auto 0;
+    }
+    .hero{
+        height: 500px;
+    }
+
+    .hero .hero-contnt h1{
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .hero .hero-contnt p{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+
+    }
+
+    .travel-section .travel-section-img{
+        text-align: center;
+    }
+
+    .travel-section .travel-section-img img{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+    .travel-section .right-column .heading .title,
+    .travel-section .right-column p {
+        text-align: center;
+    }
+
+    .travel-section .right-column .heading .bottom-divider {
+        margin: 15px auto 40px auto;
+    }
+
+    .travel-section .right-column .btn-primary{
+        margin: 0 auto;
+        font-size: 18px;
+        font-weight: 500;
+        width: 160px;
+        height: 45px;
+    }
+
+    .fishing-section .swiper .card .card-text {
+        min-height: 100px;
+    }
+
+    .connect-with-email h3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+@media (max-width: 640px) {
+    .fishing-section .swiper .card .card-text {
+        min-height: auto;
+    }
+}
+@media (max-width: 576px) {
+    .hero .hero-contnt h1 {
+        font-size: 30px;
+        line-height: 40px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .hero .hero-contnt h1 br{
+        display: none;
+    }
+
+    .hero .hero-contnt p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .heading .title{
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .our_resorts,
+    .our_resorts .swiper,
+    .travel-section,
+    .connect-with-email {
+        padding-top: 50px;
+    }
+
+    .connect-with-email h3 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+
+    .travel-section .right-column p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .travel-section .right-column .heading .bottom-divider{
+        margin: 15px auto 28px auto;
+    }
+
+    .heading .bottom-divider{
+        width: 80px;
+    }
+
+    .swiper-button-next, 
+    .swiper-button-prev {
+        width: 50px !important;
+        height: 50px !important;
+        border-radius: 50%;
+        top: var(--swiper-navigation-top-offset, 48%);
+    }
+
+    .swiper-button-next:after, 
+    .swiper-button-prev:after {
+        font-size: 16px;
+        font-weight: 900;
+    }
+
+    .travel-section .travel-section-img img {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .connect-with-email h3{
+        margin-bottom: 26px;
+    }
+
+    .connect-with-email .email-item{
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+    }
+
+    .connect-with-email .email-item .input-group-prepend{
+          height: 80px;  
+    }
+
+    .connect-with-email .email-item .btn-dark{
+        margin: 30px 0 0 0;
+        padding: 20px 40px;
+    }
+
+    .connect-with-email{
+        height: 500px;
+    }
+}
+
+
+
+.hero.Sandals-banner {
+    background: url('../image/Sandals-banner.png')center / cover no-repeat;
+}
+
+.hero.beaches-resorts-banner {
+    background: url('../image/beaches-resorts-banner.jpg')center / cover no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.hero.Sandals-banner h1 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 87.1px;
+    background: linear-gradient(180deg, #FFFFFF 49.5%, #999999 93.32%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading p {
+    max-width: 680px;
+    text-align: center;
+    margin: 20px auto 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #878787;
+    max-width: 648px;
+}
+
+
+/* sandals-contnt css */
+.sandals-contnt {
+    padding-top: 48px;
+}
+
+.filter {
+    border-bottom: 1px solid #E1EDF6;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+.filter p {
+    color: #828599;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+}
+
+.filter .custom-select {
+    max-width: 242px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #DDDDDD;
+    background-color: #FFFFFF;
+    padding: 4px;
+    position: relative;
+    z-index: 4;
+}
+
+.filter .custom-select .form-control {
+    height: 44px;
+    appearance: none;
+    border: none;
+    color: #828599;
+
+}
+
+.filter .custom-select .form-control:focus {
+    box-shadow: none;
+    border-color: #DDDDDD;
+}
+
+.filter .custom-select a {
+    position: absolute;
+    width: 48px;
+    height: 44px;
+    top: 5px;
+    right: 5px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4BAEEF;
+}
+
+.sandals-contnt .img-first {
+    background: #E1EDF6 !important;
+    margin: 55px 0px;
+    padding: 52px 0px;
+}
+
+.sandals-contnt .left-column .title {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    color: #000000;
+    padding-bottom: 18px;
+
+}
+
+.sandals-contnt .left-column .sub-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #484848;
+    padding-bottom: 18px;
+}
+
+.sandals-contnt .left-column .text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    color: #484848;
+    padding-bottom: 18px;
+}
+
+.sandals-contnt .left-column .text b {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #484848;
+}
+
+.sandals-contnt .left-column .btn-primary {
+    width: 216px;
+    height: 60px;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    border:2px solid #4BAEEF !important;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    box-shadow: 0px 2.99px 57.84px 0px #4BAEEF66;
+}
+
+.sandals-contnt .left-column .btn-primary:hover{
+    background-color: #FFFFFF !important;
+    color: #4BAEEF;
+
+}
+
+.sandals-contnt .left-column .btn-outline-primary:hover {
+    color: #4BAEEF;
+}
+
+.sandals-contnt .left-column .btn-outline-primary {
+    width: 216px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: #FFFFFF !important;
+    margin-right: 50px;
+    border:2px solid #4BAEEF !important;
+    color: #4BAEEF;
+     font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+}
+
+.sandals-contnt .left-column .btn-outline-primary{
+
+}
+
+.sandals-contnt .img-container {
+    position: relative;
+    width: 90%;
+}
+
+.sandals-contnt .img-container.img-right{
+    margin-left: auto;
+}
+
+.sandals-contnt .img-container.img-left{
+    margin-right: auto;
+}
+
+
+.sandals-contnt .img-container .on-sale {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 8;
+    background-color: #4BAEEF;
+    border-radius: 20px;
+    width: 80px;
+    text-align: center;
+}
+
+.sandals-contnt .img-container.img-left .on-sale{
+    right: auto;
+    left: 15px;
+}
+
+.sandals-contnt .img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.sandals-contnt .img-container .on-sale span {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29.4px;
+    /* padding: 13px; */
+}
+
+.sandals-contnt .bg-primary .img-container .on-sale {
+    left: 15px;
+}
+
+.sandals-contnt .bg-primary .img-container .on-sale span {
+    padding: 0;
+}
+
+
+.pagination {
+    justify-content: center;
+    padding: 46px 0px;
+}
+
+.pagination .page-link.active {
+    background: #4BAEEF !important;
+    color: #FFFFFF;
+}
+
+.pagination .page-link {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 32px;
+    border: 1px solid #F1F1F1;
+    background: #FFFFFF;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 4px;
+}
+
+.page-item:last-child .page-link,
+.page-item:first-child .page-link {
+    border-radius: 32px;
+}
+
+@media (max-width: 1200px){
+    .sandals-contnt .img-container{
+        width: 100%;
+    }
+}
+@media (max-width: 991px) {
+    .sandals-contnt .img-container {
+        margin: 36px 0;
+    }
+
+    .sandals-contnt .content-first .row{
+        flex-direction: column-reverse;
+    }
+
+    .sandals-contnt .img-container.img-left,
+    .sandals-contnt .img-container.img-right{
+        width: 75%;
+        margin: 36px auto;
+    }
+
+    .sandals-contnt .img-container.img-right{
+        text-align: center;
+    }
+
+    .sandals-contnt .img-container .on-sale{
+        right: auto;
+        left: 15px;
+    }
+
+
+}
+@media (max-width: 767px) {
+    .sandals-contnt .img-container.img-left,
+    .sandals-contnt .img-container.img-right{
+        width: 100%;
+        margin: 36px auto;
+    }
+}
+
+@media (max-width: 576px) {
+
+
+    .sandals-contnt .content-first .d-flex,
+    .sandals-contnt .img-first .d-flex{
+        flex-direction: column;
+    }
+
+    .sandals-contnt .content-first .d-flex .btn,
+    .sandals-contnt .img-first .d-flex .btn{
+        width: 100%;
+        max-width: 400px;
+        margin: 10px auto;
+    }
+
+    .sandals-contnt .left-column .title {
+            font-size: 24px;
+            line-height: 30px;
+    }
+
+    .sandals-contnt .left-column .sub-title,
+    .sandals-contnt .left-column .text{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .sandals-contnt .img-first {
+        margin: 30px 0px;
+        padding: 30px 0px;
+    }
+
+    .filter{
+        flex-direction: column;
+    }
+
+    .filter p{
+        margin-bottom: 10px;
+    }
+
+    .pagination .page-link{
+        width: 35px;
+        height: 35px;
+    }
+}
+
+
+/*fishing css*/
+.hero.fishing-banner {
+    background: url('../image/fishing-banner.png')center / cover no-repeat;
+}
+
+.hero.fishing-banner h1 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 87.1px;
+    background: linear-gradient(188.76deg, #FFFFFF 49.5%, #999999 93.32%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.698);
+}
+
+.fishing-contnt .filter{
+    margin-top: 50px;
+}
+
+.fishing-contnt {
+    padding-top: 48px;
+}
+
+.fishing-contnt .card {
+    box-shadow: 0px 5px 20px 0px #0000001A;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: none;
+    position: relative;
+}
+
+.fishing-contnt .card .card-img {
+    position: relative;
+}
+
+.fishing-contnt .card .card-img .youtube-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 5;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.fishing-contnt .card .card-body {
+    padding: 31px 24px 36px;
+}
+
+.fishing-contnt .card .card-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #000000;
+}
+
+.fishing-contnt .card .card-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #555555;
+    min-height: 115px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+
+}
+
+
+
+@media (max-width:991px) {
+    .fishing-contnt .fishing-blog {
+        margin-bottom: 0px;
+    }
+
+    .fishing-contnt .card {
+        height: auto;
+    }
+}
+
+@media (max-width:576px) {
+    .fishing-contnt .card .card-title{
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .fishing-contnt .card .card-body {
+        padding: 30px 15px 30px;
+    }
+}
+/*fishing css*/
+
+
+/*detail page css*/
+.hero.detail-banner {
+    background: url('../image/Sandals-banner.png') center / cover no-repeat;
+}
+
+.hero.detail-banner h1 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 87.1px;
+    background: linear-gradient(188.76deg, #FFFFFF 49.5%, #999999 93.32%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.698);
+}
+
+.detail-section .heading{
+    margin: 50px 0;
+}
+
+.detail-section .mySwiper {
+    width: 100%;
+    height: 20%;
+    padding: 30px 0 0;
+}
+
+.detail-section .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.detail-section .mySwiper .swiper-slide {
+    opacity: 0.4;
+}
+
+.detail-section .mySwiper .swiper-slide img {
+    height: 228px;
+}
+
+.detail-section .swiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.detail-section .mySwiper .swiper-button-next {
+    right: 3px;
+}
+
+.detail-section .mySwiper .swiper-button-prev {
+    left: 3px;
+}
+
+.detail-section .mySwiper .swiper-button-next,
+.detail-section .mySwiper .swiper-button-prev {
+    box-shadow: 0px 8px 50px 0px #0000001A;
+    background: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+    opacity: 0.8;
+    top: 133px;
+}
+
+.detail-section .mySwiper .swiper-button-next:after,
+.detail-section .mySwiper .swiper-button-prev:after {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+/* description css */
+
+.detail-section .description {
+    padding: 70px 0px 20px;
+}
+
+.detail-section .description h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    padding-bottom: 18px;
+}
+
+.detail-section .description p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #484848;
+}
+
+
+
+@media (max-width:1200px) {
+    .detail-section .mySwiper .swiper-slide img {
+        height: 150px;
+    }
+
+    .detail-section .mySwiper .swiper-button-next, 
+    .detail-section .mySwiper .swiper-button-prev{
+        top: 98px;
+    }
+}
+@media (max-width:991px) {
+    .detail-section .swiper-slide img{
+        height: 500px;
+    }
+}
+@media (max-width:767px) {
+    .detail-section .swiper-slide img{
+        height: 400px;
+    }
+}
+@media (max-width:576px) {
+    h1{
+        font-size: 36px !important;
+        line-height: initial !important;
+        max-width: 100% !important;
+    }
+    .hero {
+        height: 400px;
+    }
+
+    .detail-section .description h3{
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .detail-section .description p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .detail-section .swiper-slide img{
+        height: 550px;
+    }
+
+    .detail-section .mySwiper .swiper-slide img {
+        height: 85px;
+    }
+
+    .detail-section .swiper-slide img {
+        height: 300px;
+    }
+
+    .detail-section .mySwiper .swiper-button-next, 
+    .detail-section .mySwiper .swiper-button-prev {
+        top: 64px;
+    }
+}
+/*detail page css*/
+
+
+
+
+/*about us*/
+
+
+.hero.aboutUs-banner {
+    background: url('../image/aboutUs.png') center / cover no-repeat;
+}
+
+.about-section .about-contnt .heading{ 
+    margin: 70px 0;
+}
+
+.hero.aboutUs-banner h1 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 87.1px;
+    background: linear-gradient(188.76deg, #FFFFFF 49.5%, #999999 93.32%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.698);
+}
+
+
+
+.about-section .left-column-img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    object-fit: cover;
+}
+
+.about-section .martin-travel h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 68px;
+    padding-bottom: 20px;
+}
+
+.about-section .martin-travel p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #585981DE;
+}
+
+.about-section .about-des {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #585981DE;
+    margin-top: 25px;
+}
+
+.travel-serv {
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+.about-contnt {
+    position: relative;
+}
+
+.about-contnt .aboutimg1 {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    z-index: -1;
+}
+
+.about-contnt .aboutimg2 {
+    position: absolute;
+    bottom: -24px;
+    left: -110px;
+    z-index: -1;
+}
+
+
+@media (max-width:991px) {
+    .about-section .martin-travel h2 {
+        padding: 16px 0px;
+        font-size: 35px;
+        line-height: initial;
+    }
+
+    .about-section .martin-travel p,
+    .about-section .about-des{
+        font-size: 22px;
+    }
+}
+
+@media (max-width:767px) {
+    .about-section .about-contnt .heading {
+        margin: 50px 0;
+    }
+}
+@media (max-width:575px) {
+
+    .about-contnt .aboutimg1,
+    .about-contnt .aboutimg2 {
+        display: none;
+    }
+
+    .about-section .martin-travel h2 {
+        font-size: 21px;
+        line-height: 29px;
+    }
+
+    .about-section .about-des,
+    .about-section .martin-travel p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .about-section .left-column-img{
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+
+    .travel-serv {
+        padding-top:0;
+        padding-bottom: 60px;
+    }
+}
+
+
+/*about us*/
+
+
+/*contact us*/
+    .hero.contant-banner {
+    background: url('../image/contant-banner.png') center / cover no-repeat;
+}
+
+.hero.contant-banner h1 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 87.1px;
+    background: linear-gradient(188.76deg, #FFFFFF 49.5%, #999999 93.32%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.698);
+}
+
+
+
+.contant-section {
+    padding-bottom: 118px;
+}
+
+.contant-section .contant-form .form-control {
+    width: 100%;
+    height: 54px;
+    border: 1px solid #D0D0E3;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 10px 23px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #8F90A6;
+    box-shadow: none;
+    outline: none;
+}
+
+.contant-section .contant-form textarea.form-control {
+    height: auto;
+}
+
+.contant-section .contant-form .btn-primary {
+    margin: 30px 0px 0 auto;
+}
+
+.contant-section .contact-right {
+    margin-left: 100px;
+}
+
+.contant-section .contact-right h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    padding-bottom: 10px;
+}
+
+.contant-section .contact-right p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #585981DE;
+}
+
+.contant-section .contact-icon-list {
+    list-style: none;
+    padding-top: 50px;
+}
+
+.contant-section .contact-icon-list li {
+    padding-bottom: 20px;
+}
+
+.contant-section .contact-icon-list li a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #585981;
+}
+
+.contant-section .contact-icon-list li a img {
+    margin-right: 25px;
+}
+
+.contant-section .heading{
+    padding: 50px 0px 70px;
+}
+
+
+@media (max-width:991px) {
+    .contant-section .contact-right {
+        margin: 36px 0 0;
+    }
+
+    .contant-section .contant-form .btn-primary {
+        margin: 20px auto 0 0;
+    }
+}
+
+@media (max-width:575px) {}
+/*contact us*/
+
